@@ -16,7 +16,6 @@
 | | `web_search` | Tavily 网页搜索（需配置，可选） |
 | 工程脚手架 | `create_project` | 生成 Vue3+Vite 或 Spring Boot 项目 |
 | 数据库 | `db_connect` / `db_execute_sql` | MySQL 等连接与 SQL 执行（需配置，可选） |
-| 凭据保险库 | `vault_save` / `vault_get` / `vault_list` / `vault_delete` | 本地加密存储敏感信息 |
 | 文件操作 | `file_read` / `file_write` / `file_create` / `file_delete` | 沙箱内读写，支持路径白名单 |
 
 所有工具的 Schema 定义见 [`tool/registry.py`](tool/registry.py)。
